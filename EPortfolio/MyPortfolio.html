@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachel Joy Ramos Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #000000f3, #212122, #4a484be1);
+            color: #fff;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .container img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-top: 20px;
+            align-items: center; 
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: rgba(37, 37, 37, 0.8);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            color: #ddd;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-top: 20px;
+        }
+
+        .profile p {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+
+        section {
+            margin: 50px 0;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .about-content img {
+            flex-shrink: 0;
+        }
+
+        .about-content p {
+            text-align: justify;
+        }
+
+        .education, .leadership {
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            
+            header h1 {
+                font-size: 2.5em;
+            }
+            
+            h2 {
+                font-size: 2em;
+            }
+
+            .about-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .about-content img {
+                margin-bottom: 20px;
+            }
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .contact div {
+            margin-bottom: 20px;
+        }
+        
+        .contact div span {
+            display: block;
+            font-weight: bold;
+        }
+        
+        .contact div {
+            text-align: left;
+        }
+        
+
+        .mission-vision h2 {
+            margin-bottom: 10px;
+        }
+
+        .mission-vision div {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        
+        @media (min-width: 600px) {
+            .contact, .certificates {
+                flex-direction: row;
+                justify-content: center;
+            }
+            
+            .contact div, .certificates div {
+                margin: 0 20px;
+            }
+        }
+
+        footer {
+            background-color: rgba(37, 37, 37, 0.8);
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        footer div {
+            margin: 10px 0;
+        }
+        
+        footer div span {
+            display: block;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#background">Background</a></li>
+                    <li><a href="#mission-vision">Mission & Vision</a></li>
+                    <li><a href="Activities.html">Activities</a></li>
+                    <li><a href="https://rere-arch.github.io/KIDS/ECommerce/ekamers.html">E-commerce</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Welcome to Personal Web</h1>
+            <div class="profile">
+                <img src="rachel.jpg" alt="Rachel Joy Ramos">
+                <p>Rachel Joy Ramos / Computer Science Student</p>
+            </div>
+        </div>
+    </header>
+    
+    <section id="about">
+        <div class="container">
+            <h2 style="font-size: 36px; margin-bottom: 30px; margin-top: 50px; background-color: #434643; border: 3px #000000;">Who is Rachel Ramos?</h2>
+            <div class="about-content">
+                <img src="rachel.jpg" alt="Rachel Joy Ramos">
+                <div>
+                    <p>I am Rachel Joy D. Ramos, 19 years old. A student leader at University of Cabuyao-Pamantasan ng Cabuyao</p>
+                    <p>I'm a First-year College Student, Bachelor of Science in Computer Science. I'm a beginner when it comes to this field, but until today I am learning and diving depth about this field.</p>
+                    <p>My hobby is to watch series, play online and mobile games, listen to music and sleeping. <br> I also love to play sports, especially badminton</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="background">
+        <div class="container">
+            <h2 style="font-size: 36px; margin-bottom: 30px; margin-top: 50px; background-color: #434643; border: 3px #000000;">My Background</h2>
+            <div class="education">
+                <h3>Education</h3>
+                <ul>
+                    <li>Primary - Langagan Elementary School and Bangan Elementary School, Sanchez Mira, Cagayan Valley</li>
+                    <li>Junior High School - Marinig National High School, Brgy. Marinig, Cabuyao Laguna</li>
+                    <li>Senior High School - Citi Global College, Cabuyao Laguna</li>
+                    <li>College - University of Cabuyao-Pamantasan ng Cabuyao</li>
+                </ul>
+            </div>
+            <div class="leadership">
+                <h3>Leadership</h3>
+                <ul>
+                    <li>Treasurer from Grade 1 until Grade 6</li>
+                    <li>Auditor Grade 8 and Grade 10</li>
+                    <li>Vice-President of Mapeh Club Grade 10</li>
+                    <li>Volunteer of CCS Kick-Off</li>
+                    <li>Vice-Representative of First-Semester A.Y 2023-2024</li>
+                    <li>Volunteer of FWDP event</li>
+                    <li>Class Representative of Second-Semester A.Y 2023-2024</li>
+                    <li>CSG-Scout A.Y 2023-2024</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="mission-vision">
+        <div class="container mission-vision">
+            <h2 style="font-size: 36px; margin-bottom: 30px; margin-top: 50px; background-color: #434643; border: 3px #000000;">PNC MISSION AND VISION</h2>
+            <h3>Mission</h3>
+            <div>
+                A premier institution of higher learning in Region IV, developing globally-competitive and value-laden professionals and leaders instrumental to community development and nation-building.
+            </div>
+            <h3>Vision</h3>
+            <div>
+                As an institution of higher learning, UC (PnC) is committed to equip individuals with knowledge, skills, and values that will enable them to achieve their professional goals & provide leadership and service for national development.
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container contact">
+            <div>
+                <span>Address</span>
+                Phase 3, Block 3 Lot 37. St.Joseph Village 7, Marinig, Cabuyao, Laguna
+            </div>
+            <div>
+                <span>Email</span>
+                rachelramos053@gmail.com
+            </div>
+            <div>
+                <span>Phone</span>
+                +63 912-9913-409
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // JavaScript code (if needed)
+    </script>
+</body>
+</html>

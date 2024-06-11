@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachel Joy Ramos Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #000000f3, #212122, #4a484be1);
+            color: #fff;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .container img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-top: 20px;
+            align-items: center; 
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: rgba(37, 37, 37, 0.8);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            color: #ddd;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-top: 20px;
+        }
+
+        .profile p {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+
+        section {
+            margin: 50px 0;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .about-content img {
+            flex-shrink: 0;
+        }
+
+        .about-content p {
+            text-align: justify;
+        }
+
+        .education, .leadership {
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            
+            header h1 {
+                font-size: 2.5em;
+            }
+            
+            h2 {
+                font-size: 2em;
+            }
+
+            .about-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .about-content img {
+                margin-bottom: 20px;
+            }
+        }
+
+        .contact, .certificates {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .contact div {
+            margin-bottom: 20px;
+        }
+        
+        .contact div span {
+            display: block;
+            font-weight: bold;
+        }
+        
+        .contact div {
+            text-align: left;
+        }
+        
+        .certificates {
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        .certificates div {
+            margin-bottom: 20px;
+        }
+        
+        .certificates img {
+            width: 100%;
+            height: auto;
+            max-width: 400px;
+            margin: 10px 0;
+            border-radius: 0;
+        }
+
+
+        .mission-vision h2 {
+            margin-bottom: 10px;
+        }
+
+        .mission-vision div {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        
+        @media (min-width: 600px) {
+            .contact, .certificates {
+                flex-direction: row;
+                justify-content: center;
+            }
+            
+            .contact div, .certificates div {
+                margin: 0 20px;
+            }
+        }
+
+        footer {
+            background-color: rgba(37, 37, 37, 0.8);
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        footer div {
+            margin: 10px 0;
+        }
+        
+        footer div span {
+            display: block;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="MyPortfolio.html">Home</a></li>
+                    <li><a href="MyPortfolio.html">About</a></li>
+                    <li><a href="MyPortfolio.html">Background</a></li>
+                    <li><a href="MyPortfolio.html">Mission & Vision</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="https://rere-arch.github.io/KIDS/ECommerce/ekamers.html">E-commerce</a></li>
+                    <li><a href="MyPortfolio.html">Contact</a></li>
+                </ul>
+            </nav>
+
+    <section id="certificates">
+        <div class="container certificates">
+            <h2 >Prelims</h2>
+            <div>
+                <span>Prelims Lab Exam</span>
+                <img src="prelimslabexam.jpg" alt="Prelims Lab Exam">
+            </div>
+            <div>
+                <span>Prelims Laboratory Activity 1</span>
+                <img src="prelimsact.jpg" alt="Prelims Laboratory Activity 1">
+            </div>
+            <div>
+                <span>Prelims Laboratory Activity 2</span>
+                <img src="prelimsact1.jpg" alt="Prelims Laboratory Activity 2">
+            </div>
+        </div>
+    </section>
+    <section id="certificates">
+        <div class="container certificates">
+            <h2>Midterm</h2>
+            <div>
+                <span>Midterm Exam</span>
+                <img src="midtermexam.jpg" alt="Midterm Exam">
+            </div>
+            <div>
+                <span>Midterm Laboratory Act 1</span>
+                <img src="midtermlabact1.jpg" alt="Midterm Laboratory Act 1">
+            </div>
+            <div>
+                <span>Midterm Laboratory Act 2</span>
+                <img src="midtermlabact2.jpg" alt="Midterm Laboratory Act 2">
+            </div>
+        </div>
+    </section><section id="certificates">
+        <div class="container certificates">
+            <h2 >Finals</h2>
+            <div>
+                <span>Finals Quiz</span>
+                <img src="finalsquiz.jpg" alt="Finals Quiz">
+            </div>
+            <div>
+                <span>E-commerce Website</span>
+                <img src="finalsexam.png" alt="E-commerce">
+            </div>
+        </div>
+    </section>
+           
